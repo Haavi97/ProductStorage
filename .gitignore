@@ -1,0 +1,15 @@
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+.env
+
+# Hardhat
+flat/
+artifacts/
+cache/
+.openzeppelin/
+bin/
+deployments/
