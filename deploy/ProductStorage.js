@@ -14,7 +14,7 @@ module.exports = async function({
     console.log("On chain:", chainId.toString());
     if (deployer) {
         const { address } = await deploy("ProductStorage", {
-            from: deployer,
+            from: dev,
             log: true,
             deterministicDeployment: false,
         });
